@@ -1,0 +1,116 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Web Forms</display-name>
+
+    <servlet>
+    <servlet-name>CreateListing</servlet-name>
+    <servlet-class>Controllers.CreateListingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateListing</servlet-name>
+        <url-pattern>/create_listing</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MyListings</servlet-name>
+        <servlet-class>Controllers.MyListingsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyListings</servlet-name>
+        <url-pattern>/my_listings</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Browse</servlet-name>
+        <servlet-class>Controllers.BrowseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Browse</servlet-name>
+        <url-pattern>/browse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateAccount</servlet-name>
+        <servlet-class>Controllers.CreateAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateAccount</servlet-name>
+        <url-pattern>/create_account</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditAccount</servlet-name>
+        <servlet-class>Controllers.EditAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditAccount</servlet-name>
+        <url-pattern>/edit_account</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListingView</servlet-name>
+        <servlet-class>Controllers.ListingViewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListingView</servlet-name>
+        <url-pattern>/listing_view</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Controllers.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditListing</servlet-name>
+        <servlet-class>Controllers.EditListingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditListing</servlet-name>
+        <url-pattern>/edit_listing</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitAnswer</servlet-name>
+        <servlet-class>Controllers.SubmitAnswerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitAnswer</servlet-name>
+        <url-pattern>/submit_answer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitQuestion</servlet-name>
+        <servlet-class>Controllers.SubmitQuestionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitQuestion</servlet-name>
+        <url-pattern>/submit_question</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewAccount</servlet-name>
+        <servlet-class>Controllers.ViewAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewAccount</servlet-name>
+        <url-pattern>/view_account</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteListing</servlet-name>
+        <servlet-class>Controllers.DeleteListingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteListing</servlet-name>
+        <url-pattern>/delete_listing</url-pattern>
+    </servlet-mapping>
+
+</web-app>
